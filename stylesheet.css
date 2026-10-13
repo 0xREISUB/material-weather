@@ -1,0 +1,69 @@
+.mw-panel { spacing: 6px; background-color: transparent; border: none; padding: 4px 10px; margin: 3px 6px; color: #ece6f4; }
+.mw-panel-advice { color: #1976d2; text-shadow: none; }
+.mw-scroll { max-height: 850px; }
+.mw-advice { background-color: #363127; border-radius: 16px; padding: 12px; spacing: 10px; }
+.mw-advice-title { color: #ffe082; font-size: 13px; font-weight: 700; }
+.mw-advice-detail { color: #e2d5b9; font-size: 11px; padding-top: 5px; }
+.mw-menu-surface { background-color: #1c1b20; color: #e8e5f1; border-radius: 24px; }
+.mw-content { width: 500px; padding: 16px; spacing: 12px; }
+.mw-city { font-size: 19px; font-weight: 700; color: #e8e5f1; }
+.mw-refresh { color: #d6bcff; border-radius: 12px; padding: 8px; }
+.mw-refresh:hover, .mw-refresh:focus { background-color: #37304d; }
+.mw-refresh:active { background-color: #514266; }
+.mw-hero { background-color: #302b40; border-radius: 24px; padding: 18px 22px; spacing: 12px; }
+.mw-temperature { color: #eaddff; font-size: 52px; font-weight: 400; }
+.mw-condition { color: #ece6f4; font-size: 16px; padding-bottom: 8px; }
+.mw-caption { color: #bcb5cc; font-size: 10px; }
+.mw-weather-icon { -st-icon-style: regular; }
+.mw-metrics { spacing: 8px; padding: 8px; background-color: #292630; border-radius: 16px; }
+.mw-metric { padding: 5px 8px; spacing: 4px; }
+.mw-metric-value { color: #e8def8; font-size: 15px; font-weight: 600; }
+.mw-section-title { color: #c9b7ec; font-size: 10px; font-weight: 700; padding-top: 4px; }
+.mw-forecast { background-color: #292630; border-radius: 18px; padding: 8px 14px; spacing: 2px; }
+.mw-day { spacing: 10px; padding: 9px 0; color: #d0bcff; }
+.mw-day-name { width: 76px; font-size: 12px; color: #e8e5f1; }
+.mw-day-condition { font-size: 11px; color: #bcb5cc; }
+.mw-day-temp { font-size: 12px; color: #e8def8; }
+.mw-status { font-size: 11px; color: #bcb5cc; }
+.mw-section-heading { spacing: 12px; }
+.mw-hourly-scroll { border-radius: 16px; background-color: #292630; }
+.mw-hourly-scroll:focus { background-color: #302b40; }
+.mw-hourly-scroll:dragging { background-color: #342e43; }
+.mw-hourly { spacing: 0; padding: 10px 4px; }
+.mw-hour-column { width: 56px; padding: 2px 8px; spacing: 4px; border-right: 1px solid #3b3544; }
+.mw-hour-column:last-child { border-right: none; }
+.mw-hour-column StLabel { text-align: center; }
+.mw-hour-column .mw-hour-time, .mw-hour-column .mw-hour-temp, .mw-hour-column .mw-hour-rain, .mw-hour-column .mw-hour-amount { font-family: monospace; }
+.mw-hour-time { color: #e8e5f1; font-size: 11px; font-weight: 600; }
+.mw-hour-date { color: #9e97ad; font-size: 9px; }
+.mw-hour-temp { color: #e8def8; font-size: 18px; font-weight: 600; }
+.mw-hour-rain { color: #90caf9; font-size: 11px; }
+.mw-hour-amount { color: #bcb5cc; font-size: 10px; }
+
+/* Dark mode keeps the original palette above; only light mode overrides colors. */
+.mw-menu-surface.mw-light { background-color: #f7f5fb; color: #282230; }
+.mw-panel.mw-light { color: #2e263b; }
+.mw-light .mw-city { color: #282230; }
+.mw-light .mw-hero { background-color: #e9e2f4; }
+.mw-light .mw-temperature { color: #493566; }
+.mw-light .mw-condition { color: #292334; }
+.mw-light .mw-caption, .mw-light .mw-status, .mw-light .mw-day-condition { color: #655d74; }
+.mw-light .mw-refresh { color: #654387; }
+.mw-light .mw-refresh:hover, .mw-light .mw-refresh:focus { background-color: #e1dbea; }
+.mw-light .mw-refresh:active { background-color: #d2c8e4; }
+.mw-light .mw-advice { background-color: #fff4d7; }
+.mw-light .mw-advice-title { color: #70500c; }
+.mw-light .mw-advice-detail { color: #6c592d; }
+.mw-light .mw-metrics, .mw-light .mw-forecast, .mw-light .mw-hourly-scroll { background-color: #eeebf4; }
+.mw-light .mw-hourly-scroll:focus { background-color: #e7e0f0; }
+.mw-light .mw-hourly-scroll:dragging { background-color: #ded5eb; }
+.mw-light .mw-metric-value, .mw-light .mw-hour-temp { color: #312944; }
+.mw-light .mw-section-title { color: #654387; }
+.mw-light .mw-day { color: #654387; }
+.mw-light .mw-day-name, .mw-light .mw-hour-time { color: #282230; }
+.mw-light .mw-day-temp { color: #3c3350; }
+.mw-light .mw-hour-column { border-color: #d6cfdf; }
+.mw-light .mw-hour-date, .mw-light .mw-hour-amount { color: #655d74; }
+.mw-light .mw-hour-rain { color: #2376b3; }
+.mw-light .popup-menu-item { color: #282230; }
+.mw-light .popup-menu-item:hover, .mw-light .popup-menu-item:focus { background-color: #e1dbea; }

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.preview/
+schemas/gschemas.compiled
+.agents/
+.codex/
+.aws/
+*.log
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc

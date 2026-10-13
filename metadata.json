@@ -1,0 +1,11 @@
+{
+  "uuid": "material-weather@reisub.local",
+  "name": "Material Weather",
+  "url": "https://github.com/0xREISUB/material-weather",
+  "description": "Colorful weather, hourly and daily forecasts, model selection, and weather advice. No API key required.",
+  "shell-version": [
+    "46"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.material-weather",
+  "version": 15
+}

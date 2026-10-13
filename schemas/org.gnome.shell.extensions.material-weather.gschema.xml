@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.material-weather" path="/org/gnome/shell/extensions/material-weather/">
+    <key name="language" type="s"><default>'en'</default><summary>Interface language</summary></key>
+    <key name="city" type="s"><default>'Denizli'</default><summary>Konum adı</summary></key>
+    <key name="latitude" type="d"><default>37.7765</default><range min="-90" max="90"/><summary>Enlem</summary></key>
+    <key name="longitude" type="d"><default>29.0864</default><range min="-180" max="180"/><summary>Boylam</summary></key>
+    <key name="refresh-minutes" type="i"><default>60</default><range min="15" max="360"/><summary>Yenileme aralığı</summary></key>
+    <key name="theme-mode" type="s">
+      <default>'system'</default>
+      <choices><choice value="system"/><choice value="light"/><choice value="dark"/></choices>
+      <summary>Görünüm teması</summary>
+    </key>
+    <key name="forecast-model" type="s">
+      <default>'best_match'</default>
+      <choices><choice value="best_match"/><choice value="ecmwf_ifs"/><choice value="icon_seamless"/><choice value="gfs_seamless"/></choices>
+      <summary>Tahmin modeli</summary>
+    </key>
+    <key name="auto-size" type="b"><default>true</default><summary>Dock boyutuna otomatik uyum</summary></key>
+    <key name="indicator-scale" type="i"><default>100</default><range min="50" max="150"/><summary>Gösterge ölçeği (%)</summary></key>
+    <key name="icon-size" type="i"><default>32</default><range min="12" max="96"/><summary>Manuel simge boyutu (piksel)</summary></key>
+    <key name="text-size" type="i"><default>18</default><range min="9" max="48"/><summary>Manuel yazı boyutu (piksel)</summary></key>
+  </schema>
+</schemalist>
